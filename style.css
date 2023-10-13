@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #c46666;
+}
+
+.calendar {
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+    max-width: 300px;
+}
+
+#currentMonthYear {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+#currentDate {
+    font-size: 44px;
+    margin: 10px 0;
+    color: #333;
+    font-weight: 700;
+}
+
+#currentYear {
+    font-size: 18px;
+    color: #ec0c0c;
+}
+
+.day-of-week {
+    font-size: 18px;
+    color: #555;
+    margin: 5px;
+}
